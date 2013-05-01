@@ -18,17 +18,18 @@
 		0364B4CE17300BAA000DCD7B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B4CD17300BAA000DCD7B /* Default-568h@2x.png */; };
 		0364B4D117300BAA000DCD7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364B4D017300BAA000DCD7B /* ViewController.m */; };
 		0364B4D417300BAA000DCD7B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0364B4D217300BAA000DCD7B /* ViewController.xib */; };
+		0364B4E31730193C000DCD7B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364B4E11730193C000DCD7B /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0364B4B417300BAA000DCD7B /* NPRParallaxScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPRParallaxScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0364B4B417300BAA000DCD7B /* GoogleNowScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleNowScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0364B4B717300BAA000DCD7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0364B4B917300BAA000DCD7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0364B4BB17300BAA000DCD7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0364B4BF17300BAA000DCD7B /* NPRParallaxScroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NPRParallaxScroll-Info.plist"; sourceTree = "<group>"; };
+		0364B4BF17300BAA000DCD7B /* GoogleNowScroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleNowScroll-Info.plist"; sourceTree = "<group>"; };
 		0364B4C117300BAA000DCD7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0364B4C317300BAA000DCD7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0364B4C517300BAA000DCD7B /* NPRParallaxScroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NPRParallaxScroll-Prefix.pch"; sourceTree = "<group>"; };
+		0364B4C517300BAA000DCD7B /* GoogleNowScroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleNowScroll-Prefix.pch"; sourceTree = "<group>"; };
 		0364B4C617300BAA000DCD7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0364B4C717300BAA000DCD7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0364B4C917300BAA000DCD7B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -37,6 +38,8 @@
 		0364B4CF17300BAA000DCD7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0364B4D017300BAA000DCD7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0364B4D317300BAA000DCD7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0364B4E01730193C000DCD7B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		0364B4E11730193C000DCD7B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +59,7 @@
 		0364B4AB17300BAA000DCD7B = {
 			isa = PBXGroup;
 			children = (
-				0364B4BD17300BAA000DCD7B /* NPRParallaxScroll */,
+				0364B4BD17300BAA000DCD7B /* GoogleNowScroll */,
 				0364B4B617300BAA000DCD7B /* Frameworks */,
 				0364B4B517300BAA000DCD7B /* Products */,
 			);
@@ -65,7 +68,7 @@
 		0364B4B517300BAA000DCD7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0364B4B417300BAA000DCD7B /* NPRParallaxScroll.app */,
+				0364B4B417300BAA000DCD7B /* GoogleNowScroll.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,7 +83,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0364B4BD17300BAA000DCD7B /* NPRParallaxScroll */ = {
+		0364B4BD17300BAA000DCD7B /* GoogleNowScroll */ = {
 			isa = PBXGroup;
 			children = (
 				0364B4C617300BAA000DCD7B /* AppDelegate.h */,
@@ -89,17 +92,20 @@
 				0364B4D017300BAA000DCD7B /* ViewController.m */,
 				0364B4D217300BAA000DCD7B /* ViewController.xib */,
 				0364B4BE17300BAA000DCD7B /* Supporting Files */,
+				0364B4E01730193C000DCD7B /* TableViewController.h */,
+				0364B4E11730193C000DCD7B /* TableViewController.m */,
 			);
+			name = GoogleNowScroll;
 			path = NPRParallaxScroll;
 			sourceTree = "<group>";
 		};
 		0364B4BE17300BAA000DCD7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0364B4BF17300BAA000DCD7B /* NPRParallaxScroll-Info.plist */,
+				0364B4BF17300BAA000DCD7B /* GoogleNowScroll-Info.plist */,
 				0364B4C017300BAA000DCD7B /* InfoPlist.strings */,
 				0364B4C317300BAA000DCD7B /* main.m */,
-				0364B4C517300BAA000DCD7B /* NPRParallaxScroll-Prefix.pch */,
+				0364B4C517300BAA000DCD7B /* GoogleNowScroll-Prefix.pch */,
 				0364B4C917300BAA000DCD7B /* Default.png */,
 				0364B4CB17300BAA000DCD7B /* Default@2x.png */,
 				0364B4CD17300BAA000DCD7B /* Default-568h@2x.png */,
@@ -110,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0364B4B317300BAA000DCD7B /* NPRParallaxScroll */ = {
+		0364B4B317300BAA000DCD7B /* GoogleNowScroll */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0364B4D717300BAA000DCD7B /* Build configuration list for PBXNativeTarget "NPRParallaxScroll" */;
+			buildConfigurationList = 0364B4D717300BAA000DCD7B /* Build configuration list for PBXNativeTarget "GoogleNowScroll" */;
 			buildPhases = (
 				0364B4B017300BAA000DCD7B /* Sources */,
 				0364B4B117300BAA000DCD7B /* Frameworks */,
@@ -122,9 +128,9 @@
 			);
 			dependencies = (
 			);
-			name = NPRParallaxScroll;
+			name = GoogleNowScroll;
 			productName = NPRParallaxScroll;
-			productReference = 0364B4B417300BAA000DCD7B /* NPRParallaxScroll.app */;
+			productReference = 0364B4B417300BAA000DCD7B /* GoogleNowScroll.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +142,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Touches;
 			};
-			buildConfigurationList = 0364B4AF17300BAA000DCD7B /* Build configuration list for PBXProject "NPRParallaxScroll" */;
+			buildConfigurationList = 0364B4AF17300BAA000DCD7B /* Build configuration list for PBXProject "GoogleNowScroll" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -148,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0364B4B317300BAA000DCD7B /* NPRParallaxScroll */,
+				0364B4B317300BAA000DCD7B /* GoogleNowScroll */,
 			);
 		};
 /* End PBXProject section */
@@ -176,6 +182,7 @@
 				0364B4C417300BAA000DCD7B /* main.m in Sources */,
 				0364B4C817300BAA000DCD7B /* AppDelegate.m in Sources */,
 				0364B4D117300BAA000DCD7B /* ViewController.m in Sources */,
+				0364B4E31730193C000DCD7B /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +268,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NPRParallaxScroll/NPRParallaxScroll-Prefix.pch";
-				INFOPLIST_FILE = "NPRParallaxScroll/NPRParallaxScroll-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "NPRParallaxScroll/GoogleNowScroll-Prefix.pch";
+				INFOPLIST_FILE = "NPRParallaxScroll/GoogleNowScroll-Info.plist";
+				PRODUCT_NAME = GoogleNowScroll;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -272,9 +279,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NPRParallaxScroll/NPRParallaxScroll-Prefix.pch";
-				INFOPLIST_FILE = "NPRParallaxScroll/NPRParallaxScroll-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "NPRParallaxScroll/GoogleNowScroll-Prefix.pch";
+				INFOPLIST_FILE = "NPRParallaxScroll/GoogleNowScroll-Info.plist";
+				PRODUCT_NAME = GoogleNowScroll;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -282,7 +289,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0364B4AF17300BAA000DCD7B /* Build configuration list for PBXProject "NPRParallaxScroll" */ = {
+		0364B4AF17300BAA000DCD7B /* Build configuration list for PBXProject "GoogleNowScroll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0364B4D517300BAA000DCD7B /* Debug */,
@@ -291,13 +298,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0364B4D717300BAA000DCD7B /* Build configuration list for PBXNativeTarget "NPRParallaxScroll" */ = {
+		0364B4D717300BAA000DCD7B /* Build configuration list for PBXNativeTarget "GoogleNowScroll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0364B4D817300BAA000DCD7B /* Debug */,
 				0364B4D917300BAA000DCD7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
