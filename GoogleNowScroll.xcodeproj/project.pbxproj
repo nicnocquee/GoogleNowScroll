@@ -96,7 +96,7 @@
 				0364B4E11730193C000DCD7B /* TableViewController.m */,
 			);
 			name = GoogleNowScroll;
-			path = NPRParallaxScroll;
+			path = GoogleNowScroll;
 			sourceTree = "<group>";
 		};
 		0364B4BE17300BAA000DCD7B /* Supporting Files */ = {
@@ -129,7 +129,7 @@
 			dependencies = (
 			);
 			name = GoogleNowScroll;
-			productName = NPRParallaxScroll;
+			productName = GoogleNowScroll;
 			productReference = 0364B4B417300BAA000DCD7B /* GoogleNowScroll.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -268,8 +268,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NPRParallaxScroll/GoogleNowScroll-Prefix.pch";
-				INFOPLIST_FILE = "NPRParallaxScroll/GoogleNowScroll-Info.plist";
+				GCC_PREFIX_HEADER = "GoogleNowScroll/GoogleNowScroll-Prefix.pch";
+				INFOPLIST_FILE = "GoogleNowScroll/GoogleNowScroll-Info.plist";
 				PRODUCT_NAME = GoogleNowScroll;
 				WRAPPER_EXTENSION = app;
 			};
@@ -279,8 +279,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NPRParallaxScroll/GoogleNowScroll-Prefix.pch";
-				INFOPLIST_FILE = "NPRParallaxScroll/GoogleNowScroll-Info.plist";
+				GCC_PREFIX_HEADER = "GoogleNowScroll/GoogleNowScroll-Prefix.pch";
+				INFOPLIST_FILE = "GoogleNowScroll/GoogleNowScroll-Info.plist";
 				PRODUCT_NAME = GoogleNowScroll;
 				WRAPPER_EXTENSION = app;
 			};
